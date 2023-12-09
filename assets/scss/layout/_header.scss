@@ -1,0 +1,33 @@
+.header{
+  background: #69F0AE;
+  font-size: 64px;
+}
+.navbar-color a{
+  transition: all .2s;
+}
+.navbar-color a:hover{
+  color:#6A33F8 !important ;
+}
+.navbar-index , .navbar-index:hover a{
+  transition:all .2s ;
+}
+.navbar-index:hover ,.navbar-index:hover a{
+  color: #6A33F8 !important;
+  transform:scale(1.1) !important;
+
+}
+.position-sticky{
+  position: sticky;
+}
+.back-end , .front-end{
+  transition: all .2s;
+}
+.back-end:hover{
+  color: #301E5F !important;
+  transform: translateX(2px);
+
+}
+.front-end:hover{
+  color: #301E5F !important;
+  transform: translateX(-2px);
+}

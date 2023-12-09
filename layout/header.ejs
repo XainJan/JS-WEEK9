@@ -1,0 +1,19 @@
+<div class="container d-flex justify-content-between py-6">
+    <h1 class="fw-bold fs-7 mb-0 shake-little shake-constant shake-constant--hover"><a href="#">WOWOROOM</a></h1>
+    <ul class="fs-5 mb-0 <%= page === 'index' ? 'd-flex' : 'd-none' %>">
+        <li class="me-5 navbar-color"><a href="#">床墊優勢</a></li>
+        <li class="me-5 navbar-color"><a href="#">好評推薦</a></li>
+        <li class="me-5 navbar-color"><a href="#">運送方式</a></li>
+        <li class="navbar-color"><a href="#">立即預訂</a></li>
+    </ul>
+    <ul class=" fs-5 mb-0 <%= page === 'admin' ? 'd-flex' : 'd-none' %>">
+        <li class="me-5 navbar-color"><a href="#">後台管理</a></li>
+        <li class="navbar-color"><a href="#">管理員登入</a></li>
+    </ul>
+</div>
+<div style="height: 40px;" class="bg-black"></div>
+<div class="position-sticky top-50 d-flex justify-content-between fs-7">
+    <a class="ms-9 front-end" href="./index.html">前台</a>
+    <a class="me-9 back-end" href="./admin.html">後台</a>
+    
+</div>
