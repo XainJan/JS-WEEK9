@@ -71,8 +71,9 @@ productData.addEventListener('click', function(item){
         return
     }
     const productId = item.target.getAttribute('data-id')
-    addCartItem(productId)
     alert('已加入購物車')
+    addCartItem(productId)
+    
 })
 
 
